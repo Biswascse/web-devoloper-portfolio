@@ -16,6 +16,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 0px 100px;
 }
 .nav-title{
 
@@ -41,4 +42,100 @@ nav li{
 nav a{
     text-decoration: none;
     color: black;
+}
+
+header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+
+    padding: 30px 30px 0px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile-picture{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: black;
+    margin-bottom: 0px;
+   
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 6px;
+    margin-bottom: 20px;
+
+}
+.banner-content{
+    max-width: 500px;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+.section-title{
+    color: var(--Dark-03, #000000);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 166.667% */
+
+
+}
+
+.section-description{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 30px 150px ;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.skill-description{
+    padding: ;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+main section{
+    margin-top: 130px;
+}
+
+.resume-container{
+    display: flex;
 }
